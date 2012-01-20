@@ -1,0 +1,299 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		88E1410914C9EB57006D15ED /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 88E1410814C9EB57006D15ED /* Cocoa.framework */; };
+		88E1410B14C9EB57006D15ED /* AppleScriptObjC.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 88E1410A14C9EB57006D15ED /* AppleScriptObjC.framework */; };
+		88E1411514C9EB57006D15ED /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 88E1411314C9EB57006D15ED /* InfoPlist.strings */; };
+		88E1411714C9EB57006D15ED /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 88E1411614C9EB57006D15ED /* main.m */; };
+		88E1411B14C9EB57006D15ED /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 88E1411914C9EB57006D15ED /* Credits.rtf */; };
+		88E1411D14C9EB57006D15ED /* RonzoTextAppDelegate.applescript in Sources */ = {isa = PBXBuildFile; fileRef = 88E1411C14C9EB57006D15ED /* RonzoTextAppDelegate.applescript */; };
+		88E1412014C9EB57006D15ED /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 88E1411E14C9EB57006D15ED /* MainMenu.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		88E1410414C9EB57006D15ED /* RonzoTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RonzoTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		88E1410814C9EB57006D15ED /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		88E1410A14C9EB57006D15ED /* AppleScriptObjC.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppleScriptObjC.framework; path = System/Library/Frameworks/AppleScriptObjC.framework; sourceTree = SDKROOT; };
+		88E1410D14C9EB57006D15ED /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		88E1410E14C9EB57006D15ED /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		88E1410F14C9EB57006D15ED /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		88E1411214C9EB57006D15ED /* RonzoTest-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "RonzoTest-Info.plist"; sourceTree = "<group>"; };
+		88E1411414C9EB57006D15ED /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		88E1411614C9EB57006D15ED /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		88E1411814C9EB57006D15ED /* RonzoTest-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "RonzoTest-Prefix.pch"; sourceTree = "<group>"; };
+		88E1411A14C9EB57006D15ED /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		88E1411C14C9EB57006D15ED /* RonzoTextAppDelegate.applescript */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.applescript; path = RonzoTextAppDelegate.applescript; sourceTree = "<group>"; };
+		88E1411F14C9EB57006D15ED /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		88E1410114C9EB57006D15ED /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				88E1410914C9EB57006D15ED /* Cocoa.framework in Frameworks */,
+				88E1410B14C9EB57006D15ED /* AppleScriptObjC.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		88E140F914C9EB57006D15ED = {
+			isa = PBXGroup;
+			children = (
+				88E1411014C9EB57006D15ED /* RonzoTest */,
+				88E1410714C9EB57006D15ED /* Frameworks */,
+				88E1410514C9EB57006D15ED /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		88E1410514C9EB57006D15ED /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				88E1410414C9EB57006D15ED /* RonzoTest.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		88E1410714C9EB57006D15ED /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				88E1410814C9EB57006D15ED /* Cocoa.framework */,
+				88E1410A14C9EB57006D15ED /* AppleScriptObjC.framework */,
+				88E1410C14C9EB57006D15ED /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		88E1410C14C9EB57006D15ED /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				88E1410D14C9EB57006D15ED /* AppKit.framework */,
+				88E1410E14C9EB57006D15ED /* CoreData.framework */,
+				88E1410F14C9EB57006D15ED /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		88E1411014C9EB57006D15ED /* RonzoTest */ = {
+			isa = PBXGroup;
+			children = (
+				88E1411C14C9EB57006D15ED /* RonzoTextAppDelegate.applescript */,
+				88E1411E14C9EB57006D15ED /* MainMenu.xib */,
+				88E1411114C9EB57006D15ED /* Supporting Files */,
+			);
+			path = RonzoTest;
+			sourceTree = "<group>";
+		};
+		88E1411114C9EB57006D15ED /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				88E1411214C9EB57006D15ED /* RonzoTest-Info.plist */,
+				88E1411314C9EB57006D15ED /* InfoPlist.strings */,
+				88E1411614C9EB57006D15ED /* main.m */,
+				88E1411814C9EB57006D15ED /* RonzoTest-Prefix.pch */,
+				88E1411914C9EB57006D15ED /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		88E1410314C9EB57006D15ED /* RonzoTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 88E1412314C9EB57006D15ED /* Build configuration list for PBXNativeTarget "RonzoTest" */;
+			buildPhases = (
+				88E1410014C9EB57006D15ED /* Sources */,
+				88E1410114C9EB57006D15ED /* Frameworks */,
+				88E1410214C9EB57006D15ED /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RonzoTest;
+			productName = RonzoTest;
+			productReference = 88E1410414C9EB57006D15ED /* RonzoTest.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		88E140FB14C9EB57006D15ED /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = 88E140FE14C9EB57006D15ED /* Build configuration list for PBXProject "RonzoTest" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 88E140F914C9EB57006D15ED;
+			productRefGroup = 88E1410514C9EB57006D15ED /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				88E1410314C9EB57006D15ED /* RonzoTest */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		88E1410214C9EB57006D15ED /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				88E1411514C9EB57006D15ED /* InfoPlist.strings in Resources */,
+				88E1411B14C9EB57006D15ED /* Credits.rtf in Resources */,
+				88E1412014C9EB57006D15ED /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		88E1410014C9EB57006D15ED /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				88E1411714C9EB57006D15ED /* main.m in Sources */,
+				88E1411D14C9EB57006D15ED /* RonzoTextAppDelegate.applescript in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		88E1411314C9EB57006D15ED /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				88E1411414C9EB57006D15ED /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		88E1411914C9EB57006D15ED /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				88E1411A14C9EB57006D15ED /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		88E1411E14C9EB57006D15ED /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				88E1411F14C9EB57006D15ED /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		88E1412114C9EB57006D15ED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		88E1412214C9EB57006D15ED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		88E1412414C9EB57006D15ED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_ENABLE_OBJC_GC = required;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RonzoTest/RonzoTest-Prefix.pch";
+				INFOPLIST_FILE = "RonzoTest/RonzoTest-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		88E1412514C9EB57006D15ED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_ENABLE_OBJC_GC = required;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RonzoTest/RonzoTest-Prefix.pch";
+				INFOPLIST_FILE = "RonzoTest/RonzoTest-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		88E140FE14C9EB57006D15ED /* Build configuration list for PBXProject "RonzoTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				88E1412114C9EB57006D15ED /* Debug */,
+				88E1412214C9EB57006D15ED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		88E1412314C9EB57006D15ED /* Build configuration list for PBXNativeTarget "RonzoTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				88E1412414C9EB57006D15ED /* Debug */,
+				88E1412514C9EB57006D15ED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 88E140FB14C9EB57006D15ED /* Project object */;
+}
