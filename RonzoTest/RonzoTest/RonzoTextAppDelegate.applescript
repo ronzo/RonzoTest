@@ -13,6 +13,9 @@
 -- Part 2: http://macscripter.net/viewtopic.php?pid=117608#p117608
 -- Part 3: http://macscripter.net/viewtopic.php?id=30338
 -- Part 4: http://macscripter.net/viewtopic.php?id=30359
+-- Part 5: http://macscripter.net/viewtopic.php?pid=121006
+-- IB Video: http://allancraig.net/index.php?option=com_content&view=article&id=86:applescriptobjc-in-xcode-part-2-video&catid=41:applescriptobjc&Itemid=90
+
 
 
 -- The following script object is our Application Delegate (shown as a blue cube in Interface Builder)
